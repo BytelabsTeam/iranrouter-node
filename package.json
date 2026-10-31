@@ -1,0 +1,50 @@
+{
+  "name": "iranrouter",
+  "version": "0.1.0",
+  "description": "IranRouter Node.js helper — OpenAI-compatible client",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "assets",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "example:chat": "node examples/01_chat.js",
+    "example:stream": "node examples/02_stream.js",
+    "example:models": "node examples/03_models.js",
+    "example:key": "node examples/04_check_key.js",
+    "example:embeddings": "node examples/05_embeddings.js",
+    "example:images": "node examples/06_images.js",
+    "example:http": "node examples/07_http_chat.js"
+  },
+  "keywords": [
+    "iranrouter",
+    "openai",
+    "llm",
+    "api"
+  ],
+  "author": "Bytelabs",
+  "license": "MIT",
+  "homepage": "https://iranrouter.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BytelabsTeam/iranrouter-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BytelabsTeam/iranrouter-node/issues"
+  },
+  "dependencies": {
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
